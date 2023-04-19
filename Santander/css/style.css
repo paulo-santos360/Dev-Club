@@ -42,10 +42,18 @@ h3{
     font-size: 30px;
 }
 
+ul{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
 li{
     height: 190px;
     width: 190px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: inline-block;
 }
 
 .imagem-produtos{
@@ -53,4 +61,10 @@ li{
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
+    
+}
+
+p{
+    text-align: center;
+    margin-top: 20px;
 }
